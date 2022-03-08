@@ -198,7 +198,7 @@ img{
     justify-content: space-around;
     padding-bottom: var(--separacion);
 }
-@media (max-width: 360px){
+@media (max-width: 400px){
     .texto-sobre-tech{
         padding: 0;
     } 
@@ -212,7 +212,7 @@ img{
 .texto-sobre-tech h2{
     font-size: 4rem;
 }
-@media (max-width: 360px){
+@media (max-width: 400px){
     .texto-sobre-tech h2{
         font-size: 3rem;
     }
@@ -261,7 +261,7 @@ img{
     transform: scale(1.1);
     background-size: 18rem;
 }
-@media (max-width: 360px){
+@media (max-width: 400px){
     .modelo{
         background-size: 12rem;
     }
@@ -405,7 +405,7 @@ footer p{
         margin: 10rem 0 0 0;
     }
 }
-@media (min-width: 361px) and (max-width: 599px){
+@media (min-width: 361px) and (max-width: 438x){
     footer p{
         font-size: 1.5rem;
         margin: 8rem 0 0 0;
