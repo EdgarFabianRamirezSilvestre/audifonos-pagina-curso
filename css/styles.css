@@ -198,6 +198,11 @@ img{
     justify-content: space-around;
     padding-bottom: var(--separacion);
 }
+@media (max-width: 360px){
+    .texto-sobre-tech{
+        padding: 0;
+    } 
+}
 @media (min-width: 768px)
 {
     .texto-sobre-tech{
@@ -206,6 +211,11 @@ img{
 }
 .texto-sobre-tech h2{
     font-size: 4rem;
+}
+@media (max-width: 360px){
+    .texto-sobre-tech h2{
+        font-size: 3rem;
+    }
 }
 .texto-sobre-tech p{
     font-size: 2rem;
@@ -250,6 +260,15 @@ img{
 .modelo:hover{
     transform: scale(1.1);
     background-size: 18rem;
+}
+@media (max-width: 360px){
+    .modelo{
+        background-size: 12rem;
+    }
+    .modelo:hover{
+        transform: scale(1.1);
+        background-size: 14rem;
+    }
 }
 @media (min-width: 992px){
     .modelo{
@@ -379,4 +398,16 @@ footer p{
     text-transform: uppercase;
     font-size: 2rem;
     padding: 3rem 0;
+}
+@media (max-width: 360px){
+    footer p{
+        font-size: 1.5rem;
+        margin: 10rem 0 0 0;
+    }
+}
+@media (min-width: 361px) and (max-width: 599px){
+    footer p{
+        font-size: 1.5rem;
+        margin: 8rem 0 0 0;
+    }
 }
